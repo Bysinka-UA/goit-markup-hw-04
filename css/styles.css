@@ -212,6 +212,15 @@ align-items: center;
  width: calc((100% - 3*24px)/ 4);
 }
 
+.container-svg {
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+}
+
 .benefits-list {
   display: flex;
   gap: 24px;
@@ -273,6 +282,28 @@ text-transform: capitalize;
 margin-bottom: 8px;
 }
 
+.social-team-icon{
+align-items: center;
+justify-content: center;
+}
+
+.social-list-item {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 24px;
+position: static;
+display: inline-block;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  fill: #4d5ae5;
+
+}
+
 .team-description {
 font-size: 16px;
 line-height: 1.5;
@@ -283,6 +314,20 @@ color: #434455;
 
 .team-img {
 
+}
+.container-team-svg {
+width: 232px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 24px;
+}
+
+icons-team-svg {
+  border-radius: 50%;
+  fill: #4d5ae5;
 }
 .team-info {
 padding: 32px 0;
