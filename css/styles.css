@@ -208,6 +208,12 @@ align-items: center;
  overflow: hidden;
 }
 
+.container-benefits {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
 .benefits-item {
  width: calc((100% - 3*24px)/ 4);
 }
