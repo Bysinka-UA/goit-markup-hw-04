@@ -359,6 +359,8 @@ icons-team-svg {
 padding: 32px 0;
 }
 
+/* portfolio */
+
 .portfolio-page {
   background-color: #fff;
   padding-top: 120px; 
@@ -407,7 +409,26 @@ padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
 }
-)
+
+.portfolio-item:hover .overlay-text {
+  transform: translateY(0%);
+}
+
+.overlay-text {
+position: absolute;
+top: 0;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+padding: 40px 32px;
+height: 100%;
+width: 100%;
+background-color: #4d5ae5;
+transform: translateY(100%);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* footer */
 
 .footer-container {
