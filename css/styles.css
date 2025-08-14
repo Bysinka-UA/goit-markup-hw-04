@@ -445,15 +445,16 @@ max-width: 264px;
 
 .footer-social {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: baseline;
 }
 
 .footer-social-text {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
-  color: #F4F4FD;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
 }
 
 .footer-social-list {
